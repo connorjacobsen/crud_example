@@ -82,7 +82,7 @@ class ApplicationController < ActionController::API
 
     # Finds the desired Resource instance by :id
     def set_resource
-      resource.find_by_hashed_id(params[:id])
+      resource.find_by_public_id(params[:id])
     end
 
     def resource_params

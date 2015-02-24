@@ -1,3 +1,3 @@
 class Product < ActiveRecord::Base
-  include Hashed
+  include Public
 end

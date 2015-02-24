@@ -1,1 +1,1 @@
-json.message "#{class.to_s} with id #{hashed_id} could not be found."
+json.message "#{class.to_s} with id #{public_id} could not be found."
